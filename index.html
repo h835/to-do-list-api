@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>To-do</title>
+</head>
+
+<body>
+
+	<div class="batteryStatus">
+	<h2>Device Battery status</h2>
+	<h4 id="ChargeInfo">Device Battery status</h4>
+	<h4 id="LevelInfo">Device Battery status</h4>
+	</div>
+	
+  <header>To-do List</header>
+  
+  <div class="main">
+    <!-- Main input box -->
+    <div class="input-container">
+      <input type="text" id="todo-input">
+      <button type="button" id="add-button">Add</button>
+    </div>
+    <!-- List containing multiple items -->
+    <div id="list">
+    </div>
+	
+	<div>
+	<h3 style="text-align: center;">Google Map</h3>
+	<div id="googlemap" style="width: 300px ;height: 200px; align-content: center; margin: auto;" ></div>
+	</div>
+  </div>
+  <footer>JS Assignment 2020</footer>
+  
+  <script  src="script.js"></script>
+
+  <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+</body>
+
+</html>
